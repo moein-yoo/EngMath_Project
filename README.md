@@ -2,8 +2,8 @@
 # 🧠 Biomedical Image Denoising Project
 
 **Engineering Mathematics – Sharif University of Technology**  
-📅 Winter 1403  (Fall 2024 & Winter 2025)
-👨‍🏫 Instructor: Prof. Hamid Aghajan
+- 📅 Winter 1403  (Fall 2024 & Winter 2025)
+- 👨‍🏫 Instructor: Prof. Hamid Aghajan
 
 ---
 
