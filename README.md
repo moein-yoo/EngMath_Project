@@ -1,5 +1,5 @@
 
-# 🧠 Biomedical Image Denoising Project
+# 🧠  From Noise to Clarity: A Study of Filtering Techniques in Biomedical Imaging
 
 **Engineering Mathematics – Sharif University of Technology**  
 - 📅 Winter 1403  (Fall 2024 & Winter 2025)
