@@ -1,0 +1,18 @@
+y = np.cos(2 * pi * frequency * t)
+signal_energy = energyCalculator(signal)
+signal_noised_energy1 = energyCalculator(signal_noised1)
+signal_noised_energy2 = energyCalculator(signal_noised2)
+noise_energy1 = signal_noised_energy1 - signal_energy
+noise_energy2 = signal_noised_energy2 - signal_energy
+N1_energy = energyCalculator(N1)
+N2_energy = energyCalculator(N2)
+print("Energy of Original Signal: ", signal_energy)
+print("Energy of Noised Signal (Normal): ", signal_noised_energy1)
+print("Energy of Noised Signal (Uniform): ", signal_noised_energy2)
+print("Energy of Normal Noise: ", N1_energy)
+print("Energy of Noised Signal - Energy of Original Signal (Normal): ", noise_energy1)
+print("Energy of Uniform Noise: ", N2_energy)
+print("Energy of Noised Signal - Energy of Original Signal (Uniform): ", noise_energy2)
+print("Energy of cos(2*pi*f*t): ", energyCalculator(y))
+print("Energy of sin(2*pi*f*t): ", energyCalculator(signal))
+print("Ex + Ey = ", energyCalculator(signal) + energyCalculator(y))
